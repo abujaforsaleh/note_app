@@ -18,5 +18,6 @@
     <color name="note_color_8">#4CAF50</color>
     <color name="note_color_9">#8BC34A</color>
     <color name="note_color_10">#FF9800</color>
+    <color name="gray">#4A4F51</color>
 
 </resources>

@@ -22,9 +22,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_title"
+                android:layout_alignParentStart="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
                 android:text="Text"
+                android:padding="8dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 />
 
         </RelativeLayout>
@@ -33,6 +40,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_note"
             android:text="Note"
+            android:maxLines="10"
+            android:padding="8dp"
+            android:textStyle="normal"
             android:textColor="@color/black"
             android:textSize="14sp"
             />
@@ -41,7 +51,15 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_date"
             android:text="Date"
-            android:textColor="@color/black"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:textStyle="normal"
+            android:maxLines="10"
+            android:padding="8dp"
+            android:layout_alignParentStart="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/gray"
             android:textSize="14sp"
             />
 
